@@ -20,10 +20,19 @@ export default function RootLayout({
 }) {
 	useEffect(() => {
 		gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
+		const smoother = ScrollSmoother.create({
+			smooth: 1,
+			effects: true,
+			smoothTouch: 0,
+		});
 	}, []);
 	return (
 		<html lang='en'>
-			<body className={inter.className}>{children}</body>
+			<body className={inter.className}>
+				<div id='smooth-wrapper' style={{ minWidth: '100vw' }}>
+					{children}
+				</div>
+			</body>
 		</html>
 	);
 }
