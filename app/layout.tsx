@@ -4,7 +4,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { useEffect } from 'react';
-import { ScrollSmoother } from './utils/gsap/ScrollSmoother';
+import { ScrollSmoother } from '../lib/utils/gsap/ScrollSmoother';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 const inter = Inter({ subsets: ['latin'] });
 
