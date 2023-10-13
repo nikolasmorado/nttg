@@ -60,6 +60,6 @@ The project structure is organized as follows:
 
 -   `app`: Contains the Next.js app router.
 -   `public`: Place static assets like images, fonts, and other resources here.
--   `lib`: Store utility functions and third-party libraries here.
+-   `lib`: Store everything else here.
     -   `lib/components`: Store your JSX components here.
     -   `lib/utils`: Utility functions, and the `gsap` directory where you should place the proprietary GSAP Scroll Smoother file.
