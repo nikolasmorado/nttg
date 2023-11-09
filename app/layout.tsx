@@ -27,9 +27,9 @@ export default function RootLayout({
 		});
 	}, []);
 	return (
-		<html lang='en'>
+		<html lang="en">
 			<body className={inter.className}>
-				<div id='smooth-wrapper' style={{ minWidth: '100vw' }}>
+				<div id="smooth-wrapper" style={{ minWidth: '100vw' }}>
 					{children}
 				</div>
 			</body>
